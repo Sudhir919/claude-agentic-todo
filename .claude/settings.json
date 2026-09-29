@@ -7,12 +7,7 @@
           {
             "type": "command",
             "command": "node .claude/hooks/validate-js.js"
-          }
-        ]
-      },
-      {
-        "matcher": "Skill",
-        "hooks": [
+          },
           {
             "type": "command",
             "command": "node .claude/hooks/post-verification-pr.js",
